@@ -47,19 +47,33 @@ Welcher OP-Code hat der DHCP-Acknowledge?
 2
 An welche IP-Adresse wird der DHCP-Discover geschickt? Was ist an dieser IP-Adresse speziell?
 An die IP 255.255.255.255 die ist speziell, da sie an alle Geräte versendet wird.
+
 An welche MAC-Adresse wird der DHCP-Discover geschickt? Was ist an dieser MAC-Adresse speziell?
 An FF:FF:FF:FF:FF:FF sie ist speziell da sie eine Broadcast adresse ist.
+
 Weshalb wird der DHCP-Discover vom Switch auch an PC3 geschickt?
 Da die Anfrage an alle versendet wird und ebenso alle nicht DHCP clients gelangt.
+
 Gibt es ein DHCP-Relay in diesem Netzwerk? Wenn ja, welches Gerät ist es? Wenn nein, wie kann das mithilfe der DHCP-PDUs festgestellt werden?
 Welche IPv4-Adresse wird dem Client zugewiesen?
+Die Ip 192.168.26.22 wird dem Client zugewiesen
+JA es gibt einen DHCP Relay das Gerät ist der Router.
+im PDU steht die IP des DHCP-Relay drauf.
 
 Auf den Screenshots sollten alle Felder von DHCP sichtbar sein:
 
 Screenshot des DHCO-Discovers PDUs
+![image](q.png)
+
 Screenshot des DHCO-Offers
+![image](2.png)
+
 Screenshot des DHCO-Request
+![image](3.png)
+
 Screenshot des DHCO-Acknowledge
+![image](4.png)
+
 
 
 3. Netzwerk umkonfigurieren
