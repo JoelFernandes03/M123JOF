@@ -2,6 +2,7 @@ Welcher manueller Konfigurationsprozess entfällt durch den Einsatz von DHCP?
 Das konfigurieren von IP Subnetzmaske Default gateway und DNS Server.
 An welche IP-Adresse sendet der DHCP-Client den DHCPDISCOVER? Wie lautet die Bezeichnung für die Art dieses IP-Packetes?
 And die IP 255.255.255.255 und das paket lautet Broadcastpaket
+
 ![image](Herunterladen.png)
 
 Stellen Sie den DHCP-Anforderungsprozess zwischen dem DHCP-Client und dem DHCP-Server grafisch dar.
@@ -70,15 +71,19 @@ im PDU steht die IP des DHCP-Relay drauf.
 Auf den Screenshots sollten alle Felder von DHCP sichtbar sein:
 
 Screenshot des DHCO-Discovers PDUs
+
 ![image](q.png)
 
 Screenshot des DHCO-Offers
+
 ![image](2.png)
 
 Screenshot des DHCO-Request
+
 ![image](3.png)
 
 Screenshot des DHCO-Acknowledge
+
 ![image](4.png)
 
 
@@ -86,8 +91,13 @@ Screenshot des DHCO-Acknowledge
 3. Netzwerk umkonfigurieren
 
 Screenshot Konfigurationsmenü Server mit Sichtbarer IPv4-Adresse vom Interface FastEthernet
+
 ![image](server1.png)
+
 Screenshot Konfigurationsmenü Server mit Sichtbarer IPv4-Adresse des Gateways
+
 ![image](server2.png)
+
 Screenshot der Webseite des Servers auf einem der PCs inkl. sichtbarer IPv4-Adresse des Servers
+
 ![image](server3.png)
