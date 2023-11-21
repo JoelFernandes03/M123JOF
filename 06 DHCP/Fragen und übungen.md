@@ -2,7 +2,7 @@ Welcher manueller Konfigurationsprozess entfällt durch den Einsatz von DHCP?
 Das konfigurieren von IP Subnetzmaske Default gateway und DNS Server.
 An welche IP-Adresse sendet der DHCP-Client den DHCPDISCOVER? Wie lautet die Bezeichnung für die Art dieses IP-Packetes?
 And die IP 255.255.255.255 und das paket lautet Broadcastpaket
-![image](herunterladen.png)
+![image](Herunterladen.png)
 Stellen Sie den DHCP-Anforderungsprozess zwischen dem DHCP-Client und dem DHCP-Server grafisch dar.
 
 Wie kann es trotz Einsatz eines DHCP-Servers zu einem IP-Konflikt kommen?
@@ -31,8 +31,10 @@ IP address       Client-ID/              Lease expiration        Type
 
 In welchem Range vergibt der DHCP-Server IPv4 Adressen?
 192.168.26.1     - 192.168.26.254
+
 Was hat die Konfiguration ip dhcp excluded-address zur Folge?
 Er vergiebt die ip addressen die excluded sind nicht
+
 Wie viele IPv4-Adressen kann der DHCP-Server dynamisch vergeben?
 254 IP addressen kann er ingesammt vergeben.
 
@@ -41,10 +43,13 @@ Wie viele IPv4-Adressen kann der DHCP-Server dynamisch vergeben?
 
 Welcher OP-Code hat der DHCP-Offer?
 OP:0x0000000000000002
+
 Welcher OP-Code hat der DHCP-Request?
 OP:0x0000000000000001
+
 Welcher OP-Code hat der DHCP-Acknowledge?
 OP:0x0000000000000002
+
 An welche IP-Adresse wird der DHCP-Discover geschickt? Was ist an dieser IP-Adresse speziell?
 An die IP 255.255.255.255 die ist speziell, da sie an alle Geräte versendet wird.
 
@@ -56,6 +61,7 @@ Da die Anfrage an alle versendet wird und ebenso alle nicht DHCP clients gelangt
 
 Gibt es ein DHCP-Relay in diesem Netzwerk? Wenn ja, welches Gerät ist es? Wenn nein, wie kann das mithilfe der DHCP-PDUs festgestellt werden?
 Welche IPv4-Adresse wird dem Client zugewiesen?
+
 Die Ip 192.168.26.22 wird dem Client zugewiesen
 JA es gibt einen DHCP Relay das Gerät ist der Router.
 im PDU steht die IP des DHCP-Relay drauf.
