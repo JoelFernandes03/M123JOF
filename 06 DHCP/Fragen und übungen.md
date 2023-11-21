@@ -3,6 +3,7 @@ Das konfigurieren von IP Subnetzmaske Default gateway und DNS Server.
 An welche IP-Adresse sendet der DHCP-Client den DHCPDISCOVER? Wie lautet die Bezeichnung für die Art dieses IP-Packetes?
 And die IP 255.255.255.255 und das paket lautet Broadcastpaket
 ![image](Herunterladen.png)
+
 Stellen Sie den DHCP-Anforderungsprozess zwischen dem DHCP-Client und dem DHCP-Server grafisch dar.
 
 Wie kann es trotz Einsatz eines DHCP-Servers zu einem IP-Konflikt kommen?
