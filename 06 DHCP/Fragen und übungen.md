@@ -40,11 +40,11 @@ Wie viele IPv4-Adressen kann der DHCP-Server dynamisch vergeben?
 2. DORA - DHCP Lease beobachten
 
 Welcher OP-Code hat der DHCP-Offer?
-2
+OP:0x0000000000000002
 Welcher OP-Code hat der DHCP-Request?
-1
+OP:0x0000000000000001
 Welcher OP-Code hat der DHCP-Acknowledge?
-2
+OP:0x0000000000000002
 An welche IP-Adresse wird der DHCP-Discover geschickt? Was ist an dieser IP-Adresse speziell?
 An die IP 255.255.255.255 die ist speziell, da sie an alle Geräte versendet wird.
 
@@ -79,5 +79,8 @@ Screenshot des DHCO-Acknowledge
 3. Netzwerk umkonfigurieren
 
 Screenshot Konfigurationsmenü Server mit Sichtbarer IPv4-Adresse vom Interface FastEthernet
+![image](server1.png)
 Screenshot Konfigurationsmenü Server mit Sichtbarer IPv4-Adresse des Gateways
+![image](server2.png)
 Screenshot der Webseite des Servers auf einem der PCs inkl. sichtbarer IPv4-Adresse des Servers
+![image](server3.png)
