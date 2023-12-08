@@ -62,10 +62,12 @@ Weshalb wird der DHCP-Discover vom Switch auch an PC3 geschickt?
 Da die Anfrage an alle versendet wird und ebenso alle nicht DHCP clients gelangt.
 
 Gibt es ein DHCP-Relay in diesem Netzwerk? Wenn ja, welches Gerät ist es? Wenn nein, wie kann das mithilfe der DHCP-PDUs festgestellt werden?
+Nein es gibt keinen DHCP-Relay in diesem netzwerk. Man kann dies beim Relay agent Adress im PDU nachschauen.
+
 Welche IPv4-Adresse wird dem Client zugewiesen?
 
 Die Ip 192.168.26.22 wird dem Client zugewiesen
-JA es gibt einen DHCP Relay das Gerät ist der Router.
+
 im PDU steht die IP des DHCP-Relay drauf.
 
 Auf den Screenshots sollten alle Felder von DHCP sichtbar sein:
