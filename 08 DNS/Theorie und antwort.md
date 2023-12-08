@@ -60,6 +60,7 @@ Fragen zum PDU DNS Query response beantworten:
 
 Was für eine IP Adresse steht in der DNS query response bzw. DNS Answer? ==> Mit Screenshot belegen.
 Es steht die IP 31.31.31.31 also die des Webserver
+
 ![image](response1.png)
 ![image](response2.png)
 Inwiefern unterscheidet sich die DNS query response zur DNS query? In welchem/n Feld(ern) sind der "DNS-Packet-Typ" festgehalten?
