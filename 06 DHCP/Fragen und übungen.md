@@ -36,10 +36,12 @@ In welchem Range vergibt der DHCP-Server IPv4 Adressen?
 
 Was hat die Konfiguration ip dhcp excluded-address zur Folge?
 Er vergiebt die ip addressen die excluded sind nicht
+ip dhcp excluded-address 192.168.26.1 192.168.26.21
+ip dhcp excluded-address 192.168.26.190 192.168.26.238
 
 Wie viele IPv4-Adressen kann der DHCP-Server dynamisch vergeben?
-250 IP addressen kann er ingesammt vergeben.
-
+ IP addressen kann er ingesammt vergeben.
+184 ips
 
 2. DORA - DHCP Lease beobachten
 
