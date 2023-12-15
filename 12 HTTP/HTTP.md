@@ -16,3 +16,27 @@ Wenn du via SSH auf einem anderen System eingeloggt bist, bedeutet das, dass ein
 Netstat installieren mit Command:
 
 sudo apt install net-tools
+
+![](1netstat.png)
+![](2netstat.png)
+![](helloword.png)
+![](follow.png)
+
+scp "C:\Users\joel.fernandes\OneDrive - ITpoint Systems AG\Desktop\TBZ\M123\M123JOF\12 HTTP\Herbboy-Dummy-Website-gh-pages" fernandes@172.190.82.213:/var/www/html
+
+
+webserver Files Uploaden:
+
+
+1.Windows CSP installieren.
+
+Mit CSP auf den Server verbinden mit den Credentials
+![](cspverbinden.png)
+
+Es werden die richtigen Berechtigungen benötigt.
+
+![](berechtigungen.png)
+
+
+Danach kann man die Files auf den richtigen Pfad rübertransferieren.
+![](WinSCP.png)
