@@ -49,7 +49,7 @@ Welche IP Adresse wir dem Client zugeteilt?
 
 Nach welcher Zeit müssen die Clients den DHCP lease erneuern?
 
-- nach 12 Stunden
+- nach 24 Stunden
 
 Welche Option Nummer hat die Option "Router"?
 
