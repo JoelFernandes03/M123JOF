@@ -88,3 +88,5 @@ show ip dhcp binding
 
 Ziel: Erweiterung des GNS3 Projekt Netzwerkes um eine Ubuntu Desktop Guest VM. Zugriff mit der Ubuntu Desktop Guest VM mit Firefox auf das Internet.
 
+![](netzwerkpng.png)
+![](config.png)
