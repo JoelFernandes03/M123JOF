@@ -29,7 +29,7 @@ Welche IP-Adresse wird dem ersten DHCP-Client vergeben, der einen DHCP request m
 
 network: 192.168.10.0 255.255.255.0
 
-ip address pool: 192.168.10.1 - 192.168.10.254 
+ip address pool: 192.168.10.64 - 192.168.10.254 
 
 default gateway: 192.168.10.1
 
@@ -39,7 +39,7 @@ interface: GigabitEthernet0/1
 
 Welche IP-Adresse wird dem ersten DHCP-Client vergeben, der einen DHCP request macht?
 
-- Er vergibt die erste Ip Adresse des Adress Pools also in diesem Fal 192.168.1.2 da die 192.168.1.1 excluded ist.
+- Er vergibt die erste Ip Adresse des Adress Pools also in diesem Fal 192.168.1.64 da die 192.168.1.1- 192.168.1.63 excluded sind.
 
 
 
