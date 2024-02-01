@@ -130,6 +130,8 @@ Ziel: Die beiden Webseiten des bestehenden Webservers auf den neuen Webserver ü
 
 
 Ziel: Alle auf dem bestehenden Apache2-Webserver vorhandenen Webseiten auf den neuen NGINX-Test-Webserver übernehmen.
+commands:
+
 nano /var/www/html/diefirma.example/index.html
 chown -R www-data:www-data /var/www/html/diefirma.example
 nano /etc/nginx/sites-available/diefirma.example.conf
@@ -138,5 +140,5 @@ ln -s /etc/apache2/sites-available/diefirma.example.conf /etc/apache2/sites-enab
 systemctl restart nginx
 und hostfile ändern
 
-![](diefirma.png)
+![](firma.png)
 
