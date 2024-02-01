@@ -104,7 +104,7 @@ Welcher Hintergrundprozess benötigt am meisten Prozessorzeit?
      18 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
      19 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kauditd
 
-D der top Command benutzt am meisten im moment
+Der top Command benutzt am meisten im moment
 
 Steht genügend Arbeitsspeicher zur Verfügung?
 mit free -h
@@ -112,3 +112,31 @@ mit free -h
 339 MiB stehen zur verfügung sollte für unsere Aufgabe reichen.
 
 Ziel: Konfiguration des Apache2 Webservers so passen, dass die Webseite über die Url www.daskaffee.example erreichbar ist.
+
+Anleitung:
+Öffnen Sie die Konfigurationsdatei des Apache-Webservers. Diese Datei befindet sich normalerweise im Verzeichnis /etc/apache2/sites-available/.
+Suchen Sie nach der Zeile, die ServerName Alias enthält, und fügen Sie www.kaffee.example hinzu. Wenn die Zeile nicht vorhanden ist, fügen Sie sie hinzu.
+Speichern Sie die Datei und starten Sie den Apache-Webserver neu.
+
+![](fqdn.png)
+
+
+Ziel: Die beiden Webseiten des bestehenden Webservers auf den neuen Webserver übertragen und testen.
+
+
+![](nginx.png)
+
+
+
+
+Ziel: Alle auf dem bestehenden Apache2-Webserver vorhandenen Webseiten auf den neuen NGINX-Test-Webserver übernehmen.
+nano /var/www/html/diefirma.example/index.html
+chown -R www-data:www-data /var/www/html/diefirma.example
+nano /etc/nginx/sites-available/diefirma.example.conf
+ln -s /etc/nginx/sites-available/diefirma.example.conf /etc/nginx/sites-enabled/
+ln -s /etc/apache2/sites-available/diefirma.example.conf /etc/apache2/sites-enabled/
+systemctl restart nginx
+und hostfile ändern
+
+![](diefirma.png)
+
